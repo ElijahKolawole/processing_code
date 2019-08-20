@@ -3,7 +3,7 @@ int circleY;
 int d;
 
 void setup(){
-  size(200,200);
+  size(400,400);
 }
 void run(){
   background(255);
