@@ -1,11 +1,11 @@
 int x=0;
 int y=0;
-void draw() {
+void drawFourSquare() {
 
   fill(255);
   stroke(0);
   strokeWeight(1);
-  println("width:" + width/2 + ", height:"  + height);
+  println("width:" + width + ", height:"  + height);
   x=width/2;
   y=0;
   rect(x, y, width/2, height/2);
