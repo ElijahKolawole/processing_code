@@ -12,5 +12,6 @@ void draw(){
   //drawZougImage();
  // drawDynamicrectangles();// draw dynamic rectangles.
  // drawFourSquare();
- drawTailingLine();
+ //drawTailingLine();
+ drawRectangleWithMouse();
 }
