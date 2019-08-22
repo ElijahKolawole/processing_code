@@ -4,6 +4,9 @@ float r, g, b, white;
 int speed, circleX, circleY;
 /*Exercise 8-22-19 : change shade of color from red to black*/
 int rate;
+/*Four Squares*/
+int x=0;
+int y=0;
 void setup(){
   size(400,400);
   white =255;
@@ -18,10 +21,10 @@ void draw(){
   
  //drawZougImage();
  // drawDynamicrectangles();// draw dynamic rectangles.
- // drawFourSquare();
+  drawFourSquare();
  //drawTailingLine();
  //drawRectangleWithMouse();
- doExOne();
+ //doExOne();
  //drawColoredREctangles();
  //drawBouncingBall();
 

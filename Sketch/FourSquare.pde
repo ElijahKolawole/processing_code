@@ -1,11 +1,10 @@
-int x=0;
-int y=0;
+
 void drawFourSquare() {
 
-  fill(255);
+  fill(white);
   stroke(0);
   strokeWeight(1);
-  println("width:" + width + ", height:"  + height);
+  rectMode(CORNER);
   x=width/2;
   y=0;
   rect(x, y, width/2, height/2);
@@ -20,4 +19,6 @@ void drawFourSquare() {
   y=height/2;
   fill(120);
   rect(x, y, width/2, height/2);
+   println("width:" + width + ", height:"  + height);
+
 }
