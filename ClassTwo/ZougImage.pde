@@ -2,7 +2,7 @@ void drawZougImage(){
 background(255);
 ellipseMode(CENTER);
 rectMode(CENTER);
-stroke(0);
+//stroke(0);
 fill(150);
 rect(width/2, height/2, 40, 200);
 fill(255);
