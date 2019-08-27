@@ -1,5 +1,6 @@
 int r, g, b, x, y, rectSize;
 void setup() {
+  frame.setResizable(true);
   size(600, 600);
   frameRate(5);
   rectSize = 50;
