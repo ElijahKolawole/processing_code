@@ -21,10 +21,10 @@ void draw(){
   
  //drawZougImage();
  // drawDynamicrectangles();// draw dynamic rectangles.
-  drawFourSquare();
+  //drawFourSquare();
  //drawTailingLine();
  //drawRectangleWithMouse();
- //doExOne();
+ doExOne();
  //drawColoredREctangles();
  //drawBouncingBall();
 
