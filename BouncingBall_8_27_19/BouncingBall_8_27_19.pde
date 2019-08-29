@@ -18,7 +18,7 @@ void draw() {
   speedX *= -1;
   }
   
-    if(y > height || x  <0){
+    if(y > height || y  <0){
   speedY *= -1;
   stroke(0);
   }

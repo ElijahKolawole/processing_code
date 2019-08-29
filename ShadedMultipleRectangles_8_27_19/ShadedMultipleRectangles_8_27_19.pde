@@ -1,9 +1,9 @@
 int r, g, b, x, y, rectSize;
 void setup() {
-  frame.setResizable(true);
+  surface.setResizable(true);
   size(600, 600);
   frameRate(5);
-  rectSize = 50;
+  rectSize = 100;
 }
 void draw() { 
   for (x =0; x < width; x = x + rectSize) {  
@@ -16,6 +16,6 @@ void draw() {
       rect(x, y, rectSize, rectSize);
     }
   } 
-  println("r=" + r + ",g=" +g + ", b=" +b);
+  println("r=" + r + ", g=" + g + ", b=" +b);
 
 }
